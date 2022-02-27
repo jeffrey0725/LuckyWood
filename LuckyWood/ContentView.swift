@@ -18,6 +18,10 @@ struct ContentView: View {
                 .frame(width: screenWidth, height: screenHeight, alignment: .center)
         })
             .frame(width: screenWidth, height: screenHeight, alignment: .center)
+            .background(content: {
+                Image("wood1")
+                    .scaledToFit()
+            })
     }
 }
 
