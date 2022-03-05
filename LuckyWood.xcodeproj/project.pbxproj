@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2141B00927D309C300E8A922 /* woodSound.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2141B00827D309C300E8A922 /* woodSound.m4a */; };
+		2141B00B27D309F800E8A922 /* PlayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2141B00A27D309F800E8A922 /* PlayViewModel.swift */; };
 		21B8F37E27C9BFCB00884C08 /* LuckyWoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B8F37D27C9BFCB00884C08 /* LuckyWoodApp.swift */; };
 		21B8F38027C9BFCB00884C08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B8F37F27C9BFCB00884C08 /* ContentView.swift */; };
 		21B8F38227C9BFCC00884C08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21B8F38127C9BFCC00884C08 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2141B00827D309C300E8A922 /* woodSound.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = woodSound.m4a; sourceTree = "<group>"; };
+		2141B00A27D309F800E8A922 /* PlayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewModel.swift; sourceTree = "<group>"; };
 		21B8F37A27C9BFCB00884C08 /* LuckyWood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckyWood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21B8F37D27C9BFCB00884C08 /* LuckyWoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuckyWoodApp.swift; sourceTree = "<group>"; };
 		21B8F37F27C9BFCB00884C08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +76,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2141B00627D307E200E8A922 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2141B00727D307E900E8A922 /* Sound */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		2141B00727D307E900E8A922 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				2141B00827D309C300E8A922 /* woodSound.m4a */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
 		21B8F37127C9BFCB00884C08 = {
 			isa = PBXGroup;
 			children = (
@@ -95,11 +115,13 @@
 		21B8F37C27C9BFCB00884C08 /* LuckyWood */ = {
 			isa = PBXGroup;
 			children = (
+				2141B00627D307E200E8A922 /* Resource */,
 				21B8F3A727C9CB0300884C08 /* Info.plist */,
 				21B8F37D27C9BFCB00884C08 /* LuckyWoodApp.swift */,
 				21B8F37F27C9BFCB00884C08 /* ContentView.swift */,
 				21B8F38127C9BFCC00884C08 /* Assets.xcassets */,
 				21B8F38327C9BFCC00884C08 /* Preview Content */,
+				2141B00A27D309F800E8A922 /* PlayViewModel.swift */,
 			);
 			path = LuckyWood;
 			sourceTree = "<group>";
@@ -234,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21B8F38527C9BFCC00884C08 /* Preview Assets.xcassets in Resources */,
+				2141B00927D309C300E8A922 /* woodSound.m4a in Resources */,
 				21B8F38227C9BFCC00884C08 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2141B00B27D309F800E8A922 /* PlayViewModel.swift in Sources */,
 				21B8F38027C9BFCB00884C08 /* ContentView.swift in Sources */,
 				21B8F37E27C9BFCB00884C08 /* LuckyWoodApp.swift in Sources */,
 			);

@@ -11,8 +11,10 @@ struct ContentView: View {
     @State var screenWidth: CGFloat = UIScreen.main.bounds.width
     @State var screenHeight: CGFloat = UIScreen.main.bounds.height
     var body: some View {
+        let player = PlayViewModel()
         Button(action: {
             print("---Pressed---")
+            player.play(fileName: "woodSound", fileType: "m4a")
         }, label: {
             Text("")
                 .frame(width: screenWidth, height: screenHeight, alignment: .center)
