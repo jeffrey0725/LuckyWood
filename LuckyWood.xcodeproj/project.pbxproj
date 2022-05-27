@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2141B00927D309C300E8A922 /* woodSound.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2141B00827D309C300E8A922 /* woodSound.m4a */; };
 		2141B00B27D309F800E8A922 /* PlayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2141B00A27D309F800E8A922 /* PlayViewModel.swift */; };
+		2162F9B8283C231700916774 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2162F9B7283C231700916774 /* WelcomeView.swift */; };
 		21B8F37E27C9BFCB00884C08 /* LuckyWoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B8F37D27C9BFCB00884C08 /* LuckyWoodApp.swift */; };
 		21B8F38027C9BFCB00884C08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B8F37F27C9BFCB00884C08 /* ContentView.swift */; };
 		21B8F38227C9BFCC00884C08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21B8F38127C9BFCC00884C08 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		2141B00827D309C300E8A922 /* woodSound.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = woodSound.m4a; sourceTree = "<group>"; };
 		2141B00A27D309F800E8A922 /* PlayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewModel.swift; sourceTree = "<group>"; };
+		2162F9B7283C231700916774 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		21B8F37A27C9BFCB00884C08 /* LuckyWood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckyWood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21B8F37D27C9BFCB00884C08 /* LuckyWoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuckyWoodApp.swift; sourceTree = "<group>"; };
 		21B8F37F27C9BFCB00884C08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				21B8F3A727C9CB0300884C08 /* Info.plist */,
 				21B8F37D27C9BFCB00884C08 /* LuckyWoodApp.swift */,
 				21B8F37F27C9BFCB00884C08 /* ContentView.swift */,
+				2162F9B7283C231700916774 /* WelcomeView.swift */,
 				21B8F38127C9BFCC00884C08 /* Assets.xcassets */,
 				21B8F38327C9BFCC00884C08 /* Preview Content */,
 				2141B00A27D309F800E8A922 /* PlayViewModel.swift */,
@@ -285,6 +288,7 @@
 				2141B00B27D309F800E8A922 /* PlayViewModel.swift in Sources */,
 				21B8F38027C9BFCB00884C08 /* ContentView.swift in Sources */,
 				21B8F37E27C9BFCB00884C08 /* LuckyWoodApp.swift in Sources */,
+				2162F9B8283C231700916774 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

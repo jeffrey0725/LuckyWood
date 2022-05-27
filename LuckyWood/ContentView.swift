@@ -32,7 +32,7 @@ struct ContentView: View {
                 ZStack {
                     Color.white
                     VStack {
-                        Text("Pressed")
+                        Text("Good luck!")
                             .foregroundColor(.black)
                             .padding()
                         Spacer()
